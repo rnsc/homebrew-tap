@@ -6,21 +6,21 @@ cask "vaultr" do
     end
   end
 
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     on_arm do
-      sha256 "2b46f3b8d0b25e27be07af2970a2477be688bad7562234860385883407bc05c1"
+      sha256 "fa6c9528510ebc4376eddff0f492c95e9f53df8b48880e9d7c72a2cd8a1b74d7"
       url "https://github.com/rnsc/vaultr/releases/download/v#{version}/vaultr_#{version}_darwin_arm64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "24966918ef1404ce9fe9d3213ab80cc0110ca74d0c09491b6714e8dbc51ed9ce"
+      sha256 "4d2f8ee82ba0bb5e4994b4eb1fdbd8de095ba30f0427511e92d5058329f2469a"
       url "https://github.com/rnsc/vaultr/releases/download/v#{version}/vaultr_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d074de456c26f54c35d2e29ad219aa46f59d6a6fa38a451298908ed8adc7b358"
+      sha256 "e270df49bf365a23ea6d9cdec785b0d7c387658c18565002aa7d9234ef86b652"
       url "https://github.com/rnsc/vaultr/releases/download/v#{version}/vaultr_#{version}_linux_amd64.tar.gz"
     end
   end
